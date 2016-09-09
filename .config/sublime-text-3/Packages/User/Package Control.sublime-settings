@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"42 Headers",
+		"Alignment",
+		"AlignTab",
+		"AutoFileName",
+		"Blade Snippets",
+		"BracketHighlighter",
+		"ColorPicker",
+		"Colorsublime",
+		"Emmet",
+		"Generic Config",
+		"GitGutter",
+		"Gutter Color",
+		"Ionic Snippets",
+		"JavaScript Completions",
+		"JSLint",
+		"Laravel 5 Snippets",
+		"Laravel Blade Highlighter",
+		"Monokai - Spacegray",
+		"Nodejs",
+		"Package Control",
+		"Phaser Snippets",
+		"PHP Zend Framework 2 Helper",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Solarized Color Scheme",
+		"SublimeCodeIntel",
+		"Sublimerge Pro",
+		"Symfony2 Snippets",
+		"Theme - Brogrammer",
+		"TrailingSpaces",
+		"W3CValidators"
+	]
+}
