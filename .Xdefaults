@@ -1,0 +1,69 @@
+! Font
+URxvt.font: xft: Monaco for Powerline Nerd Font:size=8
+URxvt.letterSpace: -1
+
+! Scrollbar
+URxvt*scrollBar: false
+
+! Style
+URxvt*foreground: #708284
+URxvt*background: [90]#002B36
+
+! Transparency
+urxvt*depth: 32
+
+# Fading when inactive
+URxvt.fading:15
+
+! Colors
+URxvt*color0:  #002831
+URxvt*color1:  #d11c24
+URxvt*color2:  #738a05
+URxvt*color3:  #a57706
+URxvt*color4:  #2176c7
+URxvt*color5:  #c61c6f
+URxvt*color6:  #259286
+URxvt*color7:  #eee8d5
+URxvt*color8:  #001e27
+URxvt*color9:  #bd3613
+URxvt*color10: #6a7a00
+URxvt*color11: #a57706
+URxvt*color12: #2176c7
+URxvt*color13: #5956ba
+URxvt*color14: #259286
+URxvt*color15: #fdf6e3
+
+! Perl extensions
+URxvt.perl-ext-common: default,matcher,resize-font
+
+! Underlined and clickable URLs
+URxvt.urlLauncher: google-chrome
+URxvt.matcher.button: 1
+
+! Resize font size
+URxvt.resize-font.smaller: C-minus
+URxvt.resize-font.bigger: C-plus
+URxvt.resize-font.reset: C-equal
+URxvt.resize-font.show: C-question
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! Cursor
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 1
+
+! Scrolling comportement
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+! XFT
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
