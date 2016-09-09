@@ -1,0 +1,38 @@
+"*** On désactive le mode compatible
+set nocompatible
+
+"*** On désactive filetype pour Vundle
+filetype off
+
+"*** On rajoute la prise en charge du dossier config/
+runtime! config/**/*.vim
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" On fait peter les plugins !
+Plugin 'scrooloose/nerdtree'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'tpope/vim-surround'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'bling/vim-airline'
+Plugin 'jlanzarotta/bufexplorer'
+Plugin 'kien/ctrlp.vim'
+Plugin 'vim-scripts/restore_view.vim'
+Plugin 'sjl/gundo.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'jelera/vim-javascript-syntax'
+
+" All of your Plugins must be added before the following line
+call vundle#end()
+
+" On utilise les symboles speciaux pour Airline
+let g:airline_powerline_fonts = 1
